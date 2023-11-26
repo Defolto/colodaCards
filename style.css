@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 200px;
+    height: 300px;
+    border: 1px solid black;
+    margin: 10px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+    cursor: pointer;
+}
+
+.mast1 {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+.mast2 {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+}
+
+.red .mast1,
+.red .mast2 {
+    color: red;
+}
